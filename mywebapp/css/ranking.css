@@ -1,0 +1,45 @@
+
+/* oculta los radiobutton*/
+.formRank .star-rating .radio{
+    display: none;
+}
+
+/* le da el tama�o a las estrellas*/
+.formRank .star-rating .lblRank{
+    font-size: 29pt;
+
+}
+
+/* marca amarillas las estrellas  */
+.star-rating .lblRank {
+  display: inline-block;
+  color: #f39c12;
+}
+
+/* marca de color gris las estrellas que esten despues de la seleccionada */
+.formRank .star-rating .radio:checked + label ~ .lblRank{
+
+    color:#95a5a6;
+
+}
+
+.imgCervezas{
+  max-width: 290px;
+  max-height:220px;
+}
+/*______________ESTRELLAS DE RANKING__________________*/
+
+
+/* le da el tama�o a las estrellas Y EL COLOR AMARILLO*/
+.lblRank2{
+    font-size: 20pt;
+    display: inline-block;
+    color: #f39c12;
+}
+
+
+
+.imgCervezas{
+  max-width: 290px;
+  max-height:220px;
+}
