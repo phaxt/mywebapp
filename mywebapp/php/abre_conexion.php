@@ -1,11 +1,11 @@
 <?php
 // Parametros a configurar para la conexion de la base de datos.
 
-$hotsdb = 'localhost';            // sera el valor de nuestra BD
-$basededatos = 'beer1';    // sera el valor de nuestra BD
+$hotsdb = '';            // sera el valor de nuestra BD
+$basededatos = '';    // sera el valor de nuestra BD
 
-$usuariodb = 'root';    // sera el valor de nuestra BD
-$clavedb = 'root';    // sera el valor de nuestra BD
+$usuariodb = '';    // sera el valor de nuestra BD
+$clavedb = '';    // sera el valor de nuestra BD
 
 //$tabla_db = 'cerveceria';    // sera el valor de una tabla
 
